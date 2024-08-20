@@ -7,7 +7,7 @@
 ### CREATE FREELANCER REQUEST
 
 ```js
-POST /freelancer;
+POST / freelancer;
 ```
 
 ```json
@@ -26,13 +26,14 @@ POST /freelancer;
     "Bairro": "Pequi"
   },
   "Oferta": [
-    { "Confeitaria": null },
+    { "Confeitaria": null, "preco": 0 },
     {
       "Salgados": {
         "nome": "Salgados da festa do prefeito",
         "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
         "url": "https://app.jotaja.com/salgados.com"
-      }
+      },
+      "preco": 250.0
     }
   ]
 }
@@ -65,13 +66,14 @@ Location: {{host}}/freelancer/{id}
     "Bairro": "Pequi"
   },
   "Oferta": [
-    { "Confeitaria": null },
+    { "Confeitaria": null, "preco": 0 },
     {
       "Salgados": {
         "nome": "Salgados da festa do prefeito",
         "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
         "url": "https://app.jotaja.com/salgados.com"
-      }
+      },
+      "preco": 250.0
     }
   ]
 }
@@ -111,13 +113,14 @@ GET /freelancer?data_resgis={{data_regis}}&oferta={{oferta1}},{{oferta2}}
             "Bairro": "Pequi"
         },
         "Oferta": [
-            { "Confeitaria": null },
+            { "Confeitaria": null, "preco": 0 },
             {
-            "Salgados": {
-                "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
-                "url": "https://app.jotaja.com/salgados.com"
-            }
+                "Salgados": {
+                    "nome": "Salgados da festa do prefeito",
+                    "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                    "url": "https://app.jotaja.com/salgados.com"
+                },
+            "preco": 250.00
             }
         ]
         }
@@ -157,13 +160,14 @@ GET /freelancer?data_resgis={{data_regis}}&oferta={{oferta1}},{{oferta2}}
             "Bairro": "Pequi"
         },
         "Oferta": [
-            {"Confeitaria": null},
+            { "Confeitaria": null, "preco": 0 },
             {
                 "Salgados": {
                     "nome": "Salgados da festa do prefeito",
                     "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
                     "url": "https://app.jotaja.com/salgados.com"
-                }
+                },
+            "preco": 250.00
             }
         ]
         }
@@ -196,13 +200,14 @@ PUT /freelancer/{{id}}
     "Bairro": "Pequi"
   },
   "Oferta": [
-    { "Confeitaria": null },
+    { "Confeitaria": null, "preco": 0 },
     {
       "Salgados": {
         "nome": "Salgados da festa do prefeito",
         "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
         "url": "https://app.jotaja.com/salgados.com"
-      }
+      },
+      "preco": 250.0
     }
   ]
 }
@@ -237,13 +242,14 @@ ou
     "Bairro": "Pequi"
   },
   "Oferta": [
-    { "Confeitaria": null },
+    { "Confeitaria": null, "preco": 0 },
     {
       "Salgados": {
         "nome": "Salgados da festa do prefeito",
         "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
         "url": "https://app.jotaja.com/salgados.com"
-      }
+      },
+      "preco": 250.0
     }
   ]
 }

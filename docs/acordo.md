@@ -1,0 +1,10 @@
+# 1CORRE.API.ACORDO
+
+## CREATE ACORDO
+
+### CREATE ACORDO REQUEST
+
+```js
+POST /acordo
+```
+
