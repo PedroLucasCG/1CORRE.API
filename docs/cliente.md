@@ -1,3 +1,4 @@
+//adicionar verbo delete
 # 1CORRE.API.CLIENTE
 
 ## CREATE CLIENTE
@@ -156,4 +157,18 @@ ou
 
 ```yml
 Location: {{host}}/cliente/{id}
+```
+
+## DELETE CLIENTE
+
+### DELETE CLIENTE REQUEST
+
+```js
+DELETE /cliente/{{id}}
+```
+
+### DELETE CLIENTE RESPONSE
+
+```js
+204 No Content
 ```
