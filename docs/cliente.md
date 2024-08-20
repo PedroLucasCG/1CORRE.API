@@ -1,5 +1,3 @@
-//colocar data de registro em cliente
-
 # 1CORRE.API.CLIENTE
 
 ## CREATE CLIENTE

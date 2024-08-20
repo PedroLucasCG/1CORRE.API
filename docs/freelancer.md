@@ -1,8 +1,3 @@
-//colocar no bd nome tudo junto
-//não especificar o endereço mais do que o bairro onde a pessoa mora
-//Tirar a rabela capacitacao
-//colcoar a coluna url na tabela amostras e levar isso em conta aqui
-
 # 1CORRE.API.FREELANCER
 
 ## CREATE FREELANCER
@@ -35,8 +30,8 @@ POST /freelancer
         {
             "Salgados": {
                 "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!! 
-                https://app.jotaja.com/salgados.com"
+                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                "url": "https://app.jotaja.com/salgados.com"
             }
         }
     ]
@@ -76,8 +71,8 @@ Location: {{host}}/freelancer/{id}
         {
             "Salgados": {
                 "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!! 
-                https://app.jotaja.com/salgados.com"
+                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                "url": "https://app.jotaja.com/salgados.com"
             }
         }
     ]
@@ -120,8 +115,8 @@ GET /freelancer?data_resgis={{data_regis}}&oferta={{oferta1}},{{oferta2}}
         {
             "Salgados": {
                 "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!! 
-                https://app.jotaja.com/salgados.com"
+                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                "url": "https://app.jotaja.com/salgados.com"
             }
         }
     ]
@@ -160,8 +155,8 @@ GET /freelancer?data_resgis={{data_regis}}&oferta={{oferta1}},{{oferta2}}
         {
             "Salgados": {
                 "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!! 
-                https://app.jotaja.com/salgados.com"
+                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                "url": "https://app.jotaja.com/salgados.com"
             }
         }
     ]   
@@ -198,8 +193,8 @@ PUT /freelancer/{{id}}
         {
             "Salgados": {
                 "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!! 
-                https://app.jotaja.com/salgados.com"
+                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                "url": "https://app.jotaja.com/salgados.com"
             }
         }
     ]
@@ -241,8 +236,8 @@ ou
         {
             "Salgados": {
                 "nome": "Salgados da festa do prefeito",
-                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!! 
-                https://app.jotaja.com/salgados.com"
+                "descricao": "Nesta página consta os links dos salgados feitos para a festa do prefeito!!!",
+                "url": "https://app.jotaja.com/salgados.com"
             }
         }
     ]
