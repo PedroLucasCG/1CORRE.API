@@ -1,4 +1,5 @@
 //adicionar verbo delete
+//tirar rg
 
 # 1CORRE.API.FREELANCER
 
