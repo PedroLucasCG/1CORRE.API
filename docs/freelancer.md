@@ -7,7 +7,7 @@
 ### CREATE FREELANCER REQUEST
 
 ```js
-POST / freelancer;
+POST /freelancer;
 ```
 
 ```json

@@ -1,4 +1,3 @@
-//adicionar verbo delete
 # 1CORRE.API.CLIENTE
 
 ## CREATE CLIENTE
